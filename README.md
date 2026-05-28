@@ -29,9 +29,6 @@ GiFlow replaces the typical Gaussian prior with a graph-informed prior construct
 The flow field is parameterized by a hybrid vector field model that integrates spatial attention, temporal attention, and spatiotemporal propagation, enabling joint modeling of spatial and temporal dependencies. 
 Extensive experiments on both synthetic and real-world datasets demonstrate that the proposed GiFlow outperforms the state-of-the-art approaches in spatiotemporal imputation.
 
-## Code
-The code will be available soon.
-
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper:
