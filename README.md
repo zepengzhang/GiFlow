@@ -24,7 +24,7 @@
 Missing data is a common challenge in spatiotemporal systems, arising in applications such as air quality monitoring and urban traffic management. 
 Traditional machine learning approaches, like recurrent and graph neural networks, rely on iterative propagation, which tends to accumulate errors over time and space. 
 Recent diffusion-based methods mitigate error propagation but require iterative sampling and often depend on problem-agnostic Gaussian priors, limiting both efficiency and effectiveness.
-To address these limitations, we propose \textbf{GiFlow}, a \emph{Graph-Informed Flow Matching} framework for spatiotemporal imputation. 
+To address these limitations, we propose GiFlow, a Graph-Informed Flow Matching framework for spatiotemporal imputation. 
 GiFlow replaces the typical Gaussian prior with a graph-informed prior constructed via spatiotemporal filtering of observable signals, which better aligns the source distribution to the target and thereby simplifies the generation trajectory.
 The flow field is parameterized by a hybrid vector field model that integrates spatial attention, temporal attention, and spatiotemporal propagation, enabling joint modeling of spatial and temporal dependencies. 
 % Unlike diffusion models, GiFlow is trained via direct regression and supports deterministic, few-step generation at inference. 
