@@ -27,7 +27,6 @@ Recent diffusion-based methods mitigate error propagation but require iterative 
 To address these limitations, we propose GiFlow, a Graph-Informed Flow Matching framework for spatiotemporal imputation. 
 GiFlow replaces the typical Gaussian prior with a graph-informed prior constructed via spatiotemporal filtering of observable signals, which better aligns the source distribution to the target and thereby simplifies the generation trajectory.
 The flow field is parameterized by a hybrid vector field model that integrates spatial attention, temporal attention, and spatiotemporal propagation, enabling joint modeling of spatial and temporal dependencies. 
-% Unlike diffusion models, GiFlow is trained via direct regression and supports deterministic, few-step generation at inference. 
 Extensive experiments on both synthetic and real-world datasets demonstrate that the proposed GiFlow outperforms the state-of-the-art approaches in spatiotemporal imputation.
 
 ## Code
